@@ -2,10 +2,10 @@ import React from "react";
 import "./SignInMain.css";
 import SignInForm from "../SignInForm/SignInForm.js";
 import avatar from "../../../media/images/avatar.png";
-import img1 from "../../../media/images/img1.jpg";
+import freeUkrainianPeople from "../../../media/images/freeUkrainianPeople.jpg";
 
 import AudioPlayer from "react-h5-audio-player";
-import People from "../../../media/audio/People.mp3";
+import Myt from "../../../media/audio/Myt.mp3";
 
 function SignInMain() {
   return (
@@ -19,20 +19,20 @@ function SignInMain() {
         />
 
         <SignInForm />
-        <AudioPlayer className="audioPlayer" src={People} autoPlay />
+        <AudioPlayer className="audioPlayer" src={Myt} autoPlay />
       </main>
 
       <div id="slides" className="slide-show">
         <div className="slides-inner">
           <img
-            src={img1}
+            src={freeUkrainianPeople}
             width="440"
-            height="475"
+            height="425"
             alt="God'sMother"
             className="shadow"
             id="img"
           />
-                </div>
+        </div>
       </div>
     </div>
   );
