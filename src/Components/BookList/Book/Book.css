@@ -62,6 +62,6 @@ text-align: center;
 }
 @media screen and (max-width: 420px) {
   * {
-    background-color: blueviolet;
+    background-color: rgb(232, 222, 241);
   }
 }
